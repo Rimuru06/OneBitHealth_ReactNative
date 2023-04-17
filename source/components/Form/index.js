@@ -4,7 +4,11 @@ import ResultIMC from "./ResultIMC/"
 
 export default function Form(){
 
-
+    const [height, setHeight] = useState(null);
+    const [weight, setWeight] = useState(null);
+    const [messageIMC, setMessageIMC] = useState("Preencha o peso e a altura");
+    const [IMC, setIMC] = useState(null);
+    const [TextButton, setTextButton] = useState("Calcular");
 
     return (
         <View>
